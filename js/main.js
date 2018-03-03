@@ -22,8 +22,6 @@ var cards = [
 ];
 var cardsInPlay = [];
 var checkForMatch = function () {
-    //this.setAttribute('src', cards[cardId].cardImage);
-    //if (cardsInPlay.length === 2) {
         if (cardsInPlay[0] === cardsInPlay[1]) {
             alert('You found a match!');
         }
@@ -31,7 +29,6 @@ var checkForMatch = function () {
             alert('Sorry, try again.');
         }
     };
-//};
 
 var flipCard = function () {
     var cardId = this.getAttribute('data-id');
